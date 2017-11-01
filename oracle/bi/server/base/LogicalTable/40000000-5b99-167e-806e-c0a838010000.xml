@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <LogicalTable mdsid="m40000000-5b99-167e-806e-c0a838010000" name="P_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/40000000-5b95-167e-806e-c0a838010000.xml#m40000000-5b95-167e-806e-c0a838010000">
 <LogicalColumn mdsid="m40000002-5b99-167e-806e-c0a838010000" name="PRIZE" isWriteable="false">
+<Description><![CDATA[hi]]></Description>
 <AttributeDefn mdsid="m00000001-01f4-0000-32bf-58e500000000" name="AttributeDefn">
 <ExprText><![CDATA["%1"]]></ExprText>
 <ExprTextDesc><![CDATA["obiee"."".""."P_A"."PRIZE"]]></ExprTextDesc>
