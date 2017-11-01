@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000000-5b98-167e-806e-c0a838010000" name="O_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/40000000-5b95-167e-806e-c0a838010000.xml#m40000000-5b95-167e-806e-c0a838010000">
+<LogicalColumn mdsid="m00000002-5b98-167e-806e-c0a838010000" name="ORDERID" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-d187-2c1c00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["obiee"."".""."O_A"."ORDERID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-d187-2c1c00000000-m40000002-5b73-167e-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-5b73-167e-806e-c0a838010000.xml#m40000002-5b73-167e-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000003-5b98-167e-806e-c0a838010000" name="ORDERNAME" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-cbe6-71b100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["obiee"."".""."O_A"."ORDERNAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-cbe6-71b100000000-m40000001-5b73-167e-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-5b73-167e-806e-c0a838010000.xml#m40000001-5b73-167e-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000004-5b98-167e-806e-c0a838010000" name="ORDERNUM" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-d132-35a300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["obiee"."".""."O_A"."ORDERNUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-d132-35a300000000-m40000003-5b73-167e-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-5b73-167e-806e-c0a838010000.xml#m40000003-5b73-167e-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m00000005-5b98-167e-806e-c0a838010000" name="O_A_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000005-5b98-167e-806e-c0a838010000-m00000004-5b98-167e-806e-c0a838010000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-5b98-167e-806e-c0a838010000.xml#m00000004-5b98-167e-806e-c0a838010000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000000-5b98-167e-806e-c0a838010000-m00000001-5b98-167e-806e-c0a838010000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000001-5b98-167e-806e-c0a838010000.xml#m00000001-5b98-167e-806e-c0a838010000"/>
+</RefTableSources>
+</LogicalTable>

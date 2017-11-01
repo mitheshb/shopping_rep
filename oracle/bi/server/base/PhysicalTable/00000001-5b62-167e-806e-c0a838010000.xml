@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000001-5b62-167e-806e-c0a838010000" name="ORDERSTABLE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Database/80000003-5b57-167e-806e-c0a838010000.xml#m80000003-5b57-167e-806e-c0a838010000">
+<PhysicalColumn mdsid="m00000003-5b62-167e-806e-c0a838010000" name="ORDERNAME" dataType="VARCHAR" precision="20" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000005-5b62-167e-806e-c0a838010000" name="ORDERID" dataType="DOUBLE" precision="53" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000007-5b62-167e-806e-c0a838010000" name="ORDERNUM" dataType="DOUBLE" precision="53" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="mc0000000-5b81-167e-806e-c0a838010000" name="ORDERSTABLE_Key">
+<RefColumns>
+<RefColumn refId="mc0000000-5b81-167e-806e-c0a838010000-m00000007-5b62-167e-806e-c0a838010000" columnRef="/oracle/bi/server/base/PhysicalTable/00000001-5b62-167e-806e-c0a838010000.xml#m00000007-5b62-167e-806e-c0a838010000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

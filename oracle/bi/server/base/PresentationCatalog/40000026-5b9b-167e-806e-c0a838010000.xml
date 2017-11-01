@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m40000026-5b9b-167e-806e-c0a838010000" name="MARKET" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/40000000-5b95-167e-806e-c0a838010000.xml#m40000000-5b95-167e-806e-c0a838010000">
+<RefTables>
+<RefPresentationTable refId="m40000026-5b9b-167e-806e-c0a838010000-m40000028-5b9b-167e-806e-c0a838010000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000028-5b9b-167e-806e-c0a838010000.xml#m40000028-5b9b-167e-806e-c0a838010000"/>
+<RefPresentationTable refId="m40000026-5b9b-167e-806e-c0a838010000-m4000002a-5b9b-167e-806e-c0a838010000" presentationTableRef="/oracle/bi/server/base/PresentationTable/4000002a-5b9b-167e-806e-c0a838010000.xml#m4000002a-5b9b-167e-806e-c0a838010000"/>
+<RefPresentationTable refId="m40000026-5b9b-167e-806e-c0a838010000-m4000002c-5b9b-167e-806e-c0a838010000" presentationTableRef="/oracle/bi/server/base/PresentationTable/4000002c-5b9b-167e-806e-c0a838010000.xml#m4000002c-5b9b-167e-806e-c0a838010000"/>
+</RefTables>
+</PresentationCatalog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m4000002c-5b9b-167e-806e-c0a838010000" name="P_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000026-5b9b-167e-806e-c0a838010000.xml#m40000026-5b9b-167e-806e-c0a838010000">
+<PresentationColumn mdsid="m4000001e-5b9b-167e-806e-c0a838010000" name="PRIZE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b99-167e-806e-c0a838010000.xml#m40000002-5b99-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000020-5b9b-167e-806e-c0a838010000" name="PRODUCTDISCOUNTPRIZE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b99-167e-806e-c0a838010000.xml#m40000003-5b99-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000022-5b9b-167e-806e-c0a838010000" name="PRODUCTNAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b99-167e-806e-c0a838010000.xml#m40000004-5b99-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000024-5b9b-167e-806e-c0a838010000" name="PRODUCTNO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b99-167e-806e-c0a838010000.xml#m40000005-5b99-167e-806e-c0a838010000">
+</PresentationColumn>
+</PresentationTable>

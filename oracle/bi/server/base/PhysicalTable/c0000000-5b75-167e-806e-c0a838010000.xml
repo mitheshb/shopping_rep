@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc0000000-5b75-167e-806e-c0a838010000" name="P_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Database/80000003-5b57-167e-806e-c0a838010000.xml#m80000003-5b57-167e-806e-c0a838010000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/00000001-5b65-167e-806e-c0a838010000.xml#m00000001-5b65-167e-806e-c0a838010000">
+<PhysicalColumn mdsid="mc0000004-5b75-167e-806e-c0a838010000" name="PRODUCTDISCOUNTPRIZE" dataType="DOUBLE" precision="53" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-5b65-167e-806e-c0a838010000.xml#m00000009-5b65-167e-806e-c0a838010000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000001-5b75-167e-806e-c0a838010000" name="PRODUCTNO" dataType="DOUBLE" precision="53" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-5b65-167e-806e-c0a838010000.xml#m00000003-5b65-167e-806e-c0a838010000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000002-5b75-167e-806e-c0a838010000" name="PRODUCTNAME" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-5b65-167e-806e-c0a838010000.xml#m00000005-5b65-167e-806e-c0a838010000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000003-5b75-167e-806e-c0a838010000" name="PRIZE" dataType="VARCHAR" precision="20" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000001-5b65-167e-806e-c0a838010000.xml#m00000007-5b65-167e-806e-c0a838010000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m00000000-5b93-167e-806e-c0a838010000" name="P_A_Key">
+<RefColumns>
+<RefColumn refId="m00000000-5b93-167e-806e-c0a838010000-mc0000001-5b75-167e-806e-c0a838010000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-5b75-167e-806e-c0a838010000.xml#mc0000001-5b75-167e-806e-c0a838010000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

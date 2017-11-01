@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000028-5b9b-167e-806e-c0a838010000" name="C_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000026-5b9b-167e-806e-c0a838010000.xml#m40000026-5b9b-167e-806e-c0a838010000">
+<PresentationColumn mdsid="m40000010-5b9b-167e-806e-c0a838010000" name="ADDRESS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b97-167e-806e-c0a838010000.xml#m40000002-5b97-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000012-5b9b-167e-806e-c0a838010000" name="NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b97-167e-806e-c0a838010000.xml#m40000003-5b97-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000014-5b9b-167e-806e-c0a838010000" name="ORDERNO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b97-167e-806e-c0a838010000.xml#m40000004-5b97-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000016-5b9b-167e-806e-c0a838010000" name="PHNNO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-5b97-167e-806e-c0a838010000.xml#m40000005-5b97-167e-806e-c0a838010000">
+</PresentationColumn>
+</PresentationTable>

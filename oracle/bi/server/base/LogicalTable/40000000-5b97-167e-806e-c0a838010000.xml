@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m40000000-5b97-167e-806e-c0a838010000" name="C_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/40000000-5b95-167e-806e-c0a838010000.xml#m40000000-5b95-167e-806e-c0a838010000">
+<LogicalColumn mdsid="m40000002-5b97-167e-806e-c0a838010000" name="ADDRESS" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-d515-3f2f00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["obiee"."".""."C_A"."ADDRESS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-d515-3f2f00000000-m40000002-5b70-167e-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-5b70-167e-806e-c0a838010000.xml#m40000002-5b70-167e-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000003-5b97-167e-806e-c0a838010000" name="NAME" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-3112-363300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["obiee"."".""."C_A"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-3112-363300000000-m40000001-5b70-167e-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-5b70-167e-806e-c0a838010000.xml#m40000001-5b70-167e-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000004-5b97-167e-806e-c0a838010000" name="ORDERNO" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-f60c-635d00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["obiee"."".""."C_A"."ORDERNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-f60c-635d00000000-m40000004-5b70-167e-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-5b70-167e-806e-c0a838010000.xml#m40000004-5b70-167e-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000005-5b97-167e-806e-c0a838010000" name="PHNNO" isWriteable="false">
+<AttributeDefn mdsid="m00000004-01f4-0000-50f4-3d4300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["obiee"."".""."C_A"."PHNNO"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-50f4-3d4300000000-m40000003-5b70-167e-806e-c0a838010000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-5b70-167e-806e-c0a838010000.xml#m40000003-5b70-167e-806e-c0a838010000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m40000000-5b97-167e-806e-c0a838010000-m40000001-5b97-167e-806e-c0a838010000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000001-5b97-167e-806e-c0a838010000.xml#m40000001-5b97-167e-806e-c0a838010000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m4000002a-5b9b-167e-806e-c0a838010000" name="O_A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000026-5b9b-167e-806e-c0a838010000.xml#m40000026-5b9b-167e-806e-c0a838010000">
+<PresentationColumn mdsid="m40000018-5b9b-167e-806e-c0a838010000" name="ORDERID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-5b98-167e-806e-c0a838010000.xml#m00000002-5b98-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001a-5b9b-167e-806e-c0a838010000" name="ORDERNAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-5b98-167e-806e-c0a838010000.xml#m00000003-5b98-167e-806e-c0a838010000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000001c-5b9b-167e-806e-c0a838010000" name="ORDERNUM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-5b98-167e-806e-c0a838010000.xml#m00000004-5b98-167e-806e-c0a838010000">
+</PresentationColumn>
+</PresentationTable>
